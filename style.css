@@ -1,0 +1,177 @@
+html, body {
+  background: #212529;
+  font-family: 'Anek Malayalam', sans-serif;
+  font-size: 16px;
+  color: #F8F9FA;
+}
+
+#container {
+  width: 90%;
+  max-width: 868px;
+  background: #212529;
+  margin: 30px auto;
+  border: 1px solid;
+  padding: 10px;
+}
+
+#header { overflow: hidden }
+#main { overflow: hidden }
+
+#navigation {
+  max-width: 864px;
+  margin: 30px auto;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#navigation ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid #e7e7e7;
+  background-color: #f3f3f3;
+}
+
+#navigation li {
+  float: left;
+}
+
+#navigation li a {
+  display: block;
+  color: #666;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+#navigation li a:hover:not(.active) {
+  background-color: #ddd;
+}
+
+#navigation li a.active {
+  color: white;
+  background-color: #709CD1;
+}
+
+#headshot {
+  width: 10%;
+  float: left;
+  margin-right: 30px;
+}
+
+#headshot img {
+  border-radius: 50%
+}
+
+#name {
+  float: left;
+  width: 45%;
+}
+
+#contact {
+  float: right;
+  margin: 10px;
+}
+
+#header {
+  display: flex;
+  align-items: center;
+}
+
+#myers {
+  float: left;
+  margin-right: 10px;
+  width: 38%;
+  margin-bottom: 20px;
+
+}
+
+#learning {
+  float: right;
+  width: 58%;
+  margin-bottom: 20px;
+}
+
+#bigfive {
+  float: right;
+  width: 58%;
+  margin-bottom: 20px;
+}
+
+#main li{
+  font-size: 1em;
+  line-height: 1.4em;
+  color: #709CD1;
+}
+
+#text {
+  width: 58%;
+  float: right;
+  }
+
+#homer {
+float: left;
+width: 40%;
+}
+
+#homer img {
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+#main a:link {
+  color: #709cd1;
+  background-color: transparent;
+  text-decoration: none;
+}
+#main a:visited {
+  color: #183551;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+#main a:hover {
+  color: #274975;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+#contact a:link {
+  color: #709cd1;
+  background-color: transparent;
+  text-decoration: none;
+}
+#contact a:visited {
+  color: #183551;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+#contact a:hover {
+  color: #274975;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+}
+
+p {
+  font-size: 1em;
+  line-height: 1.4em;
+  margin-bottom: 20px;
+  color: #709CD1;
+}
+
+h1 {
+  font-size: 34px;
+}
+
+h3 {
+  font-size: 60px;
+  text-align: center;
+}
